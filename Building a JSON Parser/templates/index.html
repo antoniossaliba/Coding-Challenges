@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Parser</title>
+    <link rel="stylesheet" href="../static/main.css" />
+  </head>
+  <body>
+    <h1>Welcome to the JSON parser!</h1>
+    <h2>Transform a dictionary into a JSON file</h2>
+    <form action="/" method="POST">
+      <label
+        >Enter the dictionary that you want to transform into a JSON
+        file:</label
+      >
+      <br />
+      <br />
+      <textarea
+        name="dictionary"
+        placeholder="Enter the dictionary of interest"
+        required
+      ></textarea>
+      <br />
+      <br />
+      <label>Enter the indent level:</label>
+      <br />
+      <br />
+      <input type="number" name="indent" min="1" max="100" required />
+      <br />
+      <br />
+      <label>Enter the output JSON file name:</label>
+      <br />
+      <br />
+      <input
+        type="text"
+        name="filename"
+        placeholder="Enter the JSON file name"
+        required
+      />
+      <br />
+      <br />
+      <input type="submit" placeholder="Submit" />
+    </form>
+    <hr />
+    <h2>Transform a JSON file into a dictionary!</h2>
+    <form action="/" method="POST">
+      <label>Enter the JSON file name:</label>
+      <br />
+      <br />
+      <input
+        type="text"
+        name="filename"
+        placeholder="Enter the JSON file name"
+        required
+      />
+      <br />
+      <br />
+      <input type="submit" placeholder="Submit" />
+    </form>
+  </body>
+</html>

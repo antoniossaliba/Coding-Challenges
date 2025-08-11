@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    color: white;
+}
+
+input {
+    color: black;
+    background-color: white;
+}
+
+textarea {
+    color: black;
+    background-color: white;
+}
+
+hr {
+    color: white;
+}
+
+h1 {
+    text-decoration: underline;
+}
