@@ -1,4 +1,3 @@
-import json
 from flask import Flask, redirect, render_template, request
 from json_parser import JSONParser
 
